@@ -1,0 +1,46 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# dotenv files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/**/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Jenkins
+/jenkins_home/
+/jenkins.log
+
+# Build output
+dist/
+build/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# AWS / IBM creds if any
+*.pem
+*.key
+*.crt
+aws-credentials.json
+ibm-credentials.env
