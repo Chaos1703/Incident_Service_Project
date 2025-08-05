@@ -12,7 +12,7 @@ const incidentRoutes = require('./routes/incidentRoutes');
 app.use(express.json());
 
 // Route handling - anything that starts with /api/incidents goes to incidentRoutes
-app.use('/api/incidents', incidentRoutes);
+app.use('/api/incidents', incidentRoutes);   
 
 // Start the server
 const PORT = process.env.PORT;
