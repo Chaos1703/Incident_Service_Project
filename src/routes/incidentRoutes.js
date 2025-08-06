@@ -37,4 +37,5 @@ router.patch('/restore/:id', incidentController.handleRestoreIncident);
 // 🗑️ Hard delete an incident (permanently remove)
 router.delete('/hard/:id', incidentController.handlePermanentDeleteIncident);
 
+// export the router to be used in app.js
 module.exports = router;
