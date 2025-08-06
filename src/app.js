@@ -22,6 +22,7 @@ app.listen(PORT, '0.0.0.0', () => {
 });
 
 
-app.get('/', (req, res) => {
-  res.send('Incident Service Backend is running');
+app.get('/api/incidents/health', (req, res) => {
+  res.sendStatus(200);
 });
+
