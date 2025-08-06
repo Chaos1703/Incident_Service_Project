@@ -12,7 +12,7 @@ const {
 } = require('../models/incidentModel');
 
 const test = (req, res) => {
-  res.send('Incident route is working fine!!!!!');
+  res.send('Incident route is working fine!!!!');
 };
 
 // Create new incident
